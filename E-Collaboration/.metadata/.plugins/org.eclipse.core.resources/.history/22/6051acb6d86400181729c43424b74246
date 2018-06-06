@@ -1,0 +1,12 @@
+/**
+ * userService
+ * 1.Register - call the middleware->dao->insert user details in User table
+ */
+app.factory('UserService',function($http){
+	var userService={}
+	userService.register=function(user){
+		return $http.post("http://localhost:9090/project2middleware/register"+user)
+	}
+	
+	return userService;
+})

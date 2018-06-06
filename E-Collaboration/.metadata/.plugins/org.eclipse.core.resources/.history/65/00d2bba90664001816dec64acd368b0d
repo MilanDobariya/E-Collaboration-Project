@@ -1,0 +1,25 @@
+package com.niit.controllers;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.niit.dao.UserDao;
+import com.niit.model.User;
+
+@RestController
+public class UserController {
+@Autowired
+private UserDao userDao;
+
+public ResponseEntity<?> registration(@RequestBody User user){
+	try{
+		userDao.registration(user);
+	}catch(Exception e){  //exceptions when email is null
+		ErrorClazz errorClazz=new ErrorClazz(1,"Unable to register user details"+e.getMessage());
+		return new ResponseEntity<ErrorClazz>(errorClazz,HttpStatus.INTERNAL_SERVER_ERROR);
+	}
+}
+}
