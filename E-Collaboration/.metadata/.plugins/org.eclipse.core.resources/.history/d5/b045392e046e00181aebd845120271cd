@@ -1,0 +1,13 @@
+<div class="panel panel-info">
+	<div class="panel-heading">Jobs</div>
+	<div class="panel-body">
+		<ul style="list-style:none">
+		<!-- activeJobs is Array of job object -->
+		<li ng-repeat="job in activeJobs">
+		<b>Job Title</b>{{job.jobTitle}}<br>
+		<b>Skills Required</b>{{job.skillsRequired}}<br>
+		<b>Posted On</b>{{job.postedOn | date:'medium'}}<br>
+		<hr>
+		</li>
+	</div>
+</div>

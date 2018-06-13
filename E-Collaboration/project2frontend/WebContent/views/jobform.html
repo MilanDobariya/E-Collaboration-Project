@@ -1,0 +1,31 @@
+<span style="color:red">{{error.message}}</span>
+<table>
+	<tr>
+		<td>Job Title</td>
+		<td><input type="text" ng-model="job.jobTitle"></td>
+	</tr>
+	<tr>
+		<td>Job Description</td>
+		<td><textarea type="text" ng-model="job.jobDescription"></textarea></td>
+	</tr>
+	<tr>
+		<td>Skills Required</td>
+		<td><input type="text" ng-model="job.skillsRequired"></td>
+	</tr>
+	<tr>
+		<td>Location</td>
+		<td><input type="text" ng-model="job.location"></td>
+	</tr>
+	<tr>
+		<td>Company Name</td>
+		<td><input type="text" ng-model="job.companyName"></td>
+	</tr>
+	<tr>
+		<td>Years Of Exp</td>
+		<td><input type="text" ng-model="job.yrsOfExp"></td>
+	</tr>
+	<tr>
+		<td>Salary</td>
+		<td><input type="submit" value="Add Job" ng-click="addJob(job)"></td>
+	</tr>
+</table>

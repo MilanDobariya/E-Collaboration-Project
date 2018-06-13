@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
 <typeInfo handle="=project2backend/src\/main\/java&lt;com.niit.dao{UserDao.java[UserDao" modifiers="513" timestamp="1528090788849"/>
+<typeInfo handle="=project2backend/src\/main\/java&lt;com.niit.dao{JobDao.java[JobDao" modifiers="513" timestamp="1528788858279"/>
+<typeInfo handle="=project2backend/src\/main\/java&lt;com.niit.dao{BlogPostDao.java[BlogPostDao" modifiers="513" timestamp="1528887281605"/>
 </typeInfoHistroy>

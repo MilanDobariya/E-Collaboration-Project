@@ -1,4 +1,4 @@
 #Tomcat publish data
-#Wed Jun 06 12:48:08 IST 2018
+#Wed Jun 13 19:24:46 IST 2018
 org.eclipse.jst.j2ee.server\:project2backend=WEB-INF/lib/project2backend-0.0.1-SNAPSHOT.jar
 org.eclipse.jst.j2ee.server\:/binary\:C\:\\Users\\Milan\ Dobariya\\.m2\\repository\\org\\springframework\\spring-web\\4.2.5.RELEASE\\spring-web-4.2.5.RELEASE.jar=WEB-INF/lib/spring-web-4.2.5.RELEASE.jar

@@ -1,0 +1,18 @@
+<div class="container">
+	<div class="row" style="">
+		<div class="panel panel-info">
+			<div class="panel-heading">{{job.jobTitle}}</div>
+			<div class="panel-body">
+				<b>Job Description</b> : {{job.jobDescription}}<br>
+				<b>Skills Required</b> : {{job.skillsRequired}}<br>
+				<b>Location</b> : {{job.location}}<br>
+				<b>Years of Exp</b> : {{job.yrsOfExp}}<br>
+				<b>Companay Name</b>: {{job.companyName}}<br>
+				<b>Salary</b>: {{job.salary}}<br>
+				<b>Posted On</b>{{job.postedOn | date:'medium'}}
+			</div>
+		</div>
+	</div>
+
+</div>
+<a href="#/alljobs">Back to privious page -> Get All Jobs</a>

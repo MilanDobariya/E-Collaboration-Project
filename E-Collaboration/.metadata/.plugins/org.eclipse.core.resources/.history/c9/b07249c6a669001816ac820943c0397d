@@ -1,0 +1,12 @@
+package com.niit.dao;
+
+import com.niit.model.Job;
+
+public class JobDaoImpl implements JobDao {
+
+	public void saveJob(Job job) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
