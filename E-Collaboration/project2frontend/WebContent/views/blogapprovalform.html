@@ -1,0 +1,16 @@
+{{error.message}}<!-- Internal server error while updating/deleting error message will be display -->
+<!-- blog which are approved -->
+<div class="panel panel-info">
+<div class="panel-heading">
+<b>{{blogPost.blogTitle}}</b><br>
+<b>PostedOn : {{blogPost.postedOn | date:'medium'}}</b><br>
+<b>PostedBy : {{blogPost.postedBy.firstname}} &nbsp; {{blogPost.postedBy.lastname}}</b>
+
+</div>
+<div class="panel panel-body">
+<p ng-bind-html="content"></p>
+</div>
+<button ng-click="approved(blogPost)" class="btn btn-primary">Approve</button> 
+<button class="btn btn-danger" ng-click="reject(blogPost)">Reject</button>
+<br>
+</div>

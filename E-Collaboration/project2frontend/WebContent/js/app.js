@@ -28,6 +28,29 @@ app.config(function($routeProvider){
 		controller:'JobCtrl',
 		templateUrl:'views/inactivejobslist.html'
 	})
+	.when('/addblog',{
+		controller:'BlogCtrl',
+		templateUrl:'views/blogform.html'
+	})
+	.when('/blogsapproved',{
+		controller:'BlogCtrl',
+		templateUrl:'views/blogsapproved.html'
+	})
+	.when('/blogswaitingforapproval',{
+		controller:'BlogCtrl',
+		templateUrl:'views/blogswaitingforapproval.html'
+	})
+	.when('/getblogapproved/:id',{ // select * from blogpost where id=?
+		controller:'BlogInDetailCtrl',
+		templateUrl:'views/blogindetail.html' //blog approved [likes , comments...]
+	})
+	.when('/getblogwaitingforapproval/:id',{//c - v , $scope.blogPost=[Http Response]select * from blogpost where id=?
+		controller:'BlogInDetailCtrl',
+		templateUrl:'views/blogapprovalform.html'
+	})
+	.when('/uploadprofilepic',{
+		templateUrl:'views/uploadprofilepic.html'
+	})
 	.otherwise({
 		templateUrl:'views/home.html'
 	})

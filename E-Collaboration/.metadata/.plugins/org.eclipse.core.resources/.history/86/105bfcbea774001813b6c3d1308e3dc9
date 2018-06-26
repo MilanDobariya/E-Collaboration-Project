@@ -1,0 +1,35 @@
+/**
+* BlogService
+*/
+app.factory('BlogService',function($http){
+	var blogService={}
+
+	blogService.addBlog=function(blog){
+		console.log('in blogservice')
+		return $http.post("http://localhost:9090/project2middleware/addblogpost",blog)
+		
+	}
+	blogService.blogsApproved=function(){
+		return $http.get("http://localhost:9090/project2middleware/blogsapproved")
+	}
+	blogService.blogsWaitingForApproval=function(){
+		
+		return $http.get("http://localhost:9090/project2middleware/blogswaitingforapproval")
+	}
+	blogService.getBlogPost=function(id){
+		return $http.get("http://localhost:9090/project2middleware/getblogpost/"+id)
+	}
+	blogService.updateApprovalStatus=function(blogPost){
+		//if admin approves the blogPost, blogPost.approved=?
+		//if admin rejects the blogpost, blogPost.approved=?
+		console.log("inside blogservis")
+		return $http.put("http://localhost:9090/project2middleware/updateapprovalstatus",blogPost)
+	}
+	blogService.hasUserLikedBlog=function(blogpostId){
+		return $http.get("http://localhost:9090/project2middleware/hasuserlikedblog/"+blogpostId)
+	}
+	blogService.updateBlogPostLikes=function(blogPostId){
+		return $http.put("http://localhost:9090/project2middleware/updateblogpostlikes/"+blogPostId)
+	}
+	return blogService;
+})

@@ -46,7 +46,7 @@ public ResponseEntity<?> registration(@RequestBody User user){
 public ResponseEntity<?> login(@RequestBody User user,HttpSession session){
 	User validUser=userDao.login(user);
 	if(validUser==null){
-		ErrorClazz errorClazz=new ErrorClazz(5, "Email/passwoed is incorrect.. please enter valid credential");
+		ErrorClazz errorClazz=new ErrorClazz(5, "Email/password is incorrect.. please enter valid credential");
 		return new ResponseEntity<ErrorClazz>(errorClazz,HttpStatus.NOT_FOUND);
 	}
 	else

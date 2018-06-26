@@ -1,0 +1,15 @@
+<!-- blog which are approved -->
+<div class="panel panel-info">
+<div class="panel-heading">
+<b>{{blogPost.blogTitle}}</b><br>
+<b>PostedOn : {{blogPost.postedOn | date:'medium'}}</b><br>
+<b>PostedBy : {{blogPost.postedBy.firstname}} &nbsp; {{blogPost.postedBy.lastname}}</b>
+
+</div>
+<div class="panel panel-body">
+<p ng-bind-html="content"></p>
+
+</div>
+<a ng-click="updateBlogPostLikes(blogPost.id)"><span class="glyphicon glyphicon-thumbs-up" ng-class="isLiked?'liked':'default'" ng-click=""></span></a>
+{{blogPost.likes}} likes
+</div>

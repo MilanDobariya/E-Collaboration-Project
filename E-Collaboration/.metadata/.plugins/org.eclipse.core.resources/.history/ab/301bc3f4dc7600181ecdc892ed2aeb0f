@@ -1,0 +1,17 @@
+package com.niit.dao;
+
+import com.niit.model.ProfilePicture;
+
+public class ProfilePictureDaoImpl implements ProfilePictureDao {
+
+	public void saveProfilePicture(ProfilePicture profilePicture) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public ProfilePicture getProfilePicture(String email) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

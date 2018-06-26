@@ -14,7 +14,7 @@
 <link
 	href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"
 	rel="stylesheet" />
-
+<link href="resources/css/color.css" rel="stylesheet">
 </head>
 <body ng-app="app">
 <header>
@@ -44,6 +44,14 @@
           	<li><a href="#/inactivejobs" ng-show="loggedInUser.role=='ADMIN'">Inactive jobs</a>
            </ul></li>
            
+           <li class="dropdown"><a href=""class="dropdown-toggle"
+           data-toggle="dropdown" ng-show="loggedInUser.firstname!=undefined">Blog<b class="caret"></b></a>
+           <ul class="dropdown-menu">
+           	<li><a href="#/addblog">Post Blog</a></li>
+           	<li><a href="#/blogswaitingforapproval" ng-show="loggedInUser.role=='ADMIN'">Blogs waiting for approval</a></li>
+           	<li><a href="#/blogsapproved">Approved Blogs</a></li>
+           </ul></li>
+           <li><a href="#/uploadprofilepic"><img src="http://localhost:9090/project2middleware/getimage/{{loggedInUser.email}}" alt="uploadProfilePic" height="35px" width="35px"></a></li>
            <li><a href="#/updateprofile" ng-show="loggedInUser.firstname!=undefined">Welcome {{loggedInUser.firstname}} &nbsp; {{loggedInUser.lastname}}</a></li>
            <li><a href="" ng-click="logout()" ng-show="loggedInUser.firstname!=undefined">Sign out</a></li>
            <li><a href="#/registration" ng-show="loggedInUser.firstname==undefined">Sign Up</a></li>
@@ -72,6 +80,9 @@
 <script type="text/javascript" src="controllers/jobcontroller.js"></script>
 <script type="text/javascript" src="services/jobservice.js"></script>
 
+<script type="text/javascript" src="controllers/blogpostcontroller.js"></script>
+<script type="text/javascript" src="services/blogservice.js"></script>
+<script type="text/javascript" src="controllers/blogindetailcontroller.js"></script>
 
 
 

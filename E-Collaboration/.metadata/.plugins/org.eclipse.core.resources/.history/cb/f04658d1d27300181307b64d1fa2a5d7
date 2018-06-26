@@ -1,0 +1,27 @@
+package com.niit.dao;
+
+import org.hibernate.Query;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.niit.model.BlogPostLikes;
+
+@Repository
+@Transactional
+public class BlogPostLikesDaoImpl implements BlogPostLikesDao{
+@Autowired
+private SessionFactory sessionFactory;
+
+	public BlogPostLikes hasUserLikedBlogPost(int bl+ogpostId, String email) {
+		Session session=sessionFactory.getCurrentSession();
+		Query query=session.createQuery("from BlogPostLikes where blogPost.id=? and user.email=?");
+		query.setInteger(0, blogpostId);
+		query.setString(1, email);
+		BlogPostLikes blogPostLikes=(BlogPostLikes)query.uniqueResult();
+		return blogPostLikes;//either null or 1 blogpostlikes object
+	}
+
+}

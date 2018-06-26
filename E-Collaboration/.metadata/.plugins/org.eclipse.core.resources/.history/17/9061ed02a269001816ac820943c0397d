@@ -1,8 +1,0 @@
-/**
- * 
- */
-app.controller('JobCtrl',function($scope,JobService,$locationn){
-	$scope.addJob=function(job){
-		JobService.addJob(job)
-	}
-})

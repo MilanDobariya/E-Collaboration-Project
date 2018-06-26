@@ -1,0 +1,15 @@
+package com.niit.model;
+
+import java.util.Date;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+@Entity
+@Table(name="blogcomment_s180396")
+public class BlogComment {
+private int commentId;
+private BlogPost blogPost;
+private User commentedBy;
+private String commentTxt;
+private Date commentedOn;
+}
