@@ -52,4 +52,5 @@
 <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ResponseBody"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
+<fullyQualifiedTypeName name="com.niit.model.Friend"/>
 </qualifiedTypeNameHistroy>

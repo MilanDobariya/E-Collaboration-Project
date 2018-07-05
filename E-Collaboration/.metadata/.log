@@ -9964,3 +9964,920 @@ java.net.UnknownHostException: www.eclipse.org
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-02 15:40:41.586
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-02 16:09:15.811
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-02 16:09:15.821
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-02 16:09:18.095
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-02 16:09:18.136
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2018-07-02 20:54:07.331 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-07-02 20:54:29.635
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Milan Dobariya'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-02 20:54:37.911
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-02 20:54:37.926
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-02 21:30:25.235
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-02 21:30:25.261
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2018-07-03 09:18:15.297 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.osgi 2 0 2018-07-03 09:18:48.152
+!MESSAGE While loading class "org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer", thread "Thread[Worker-7,5,main]" timed out waiting (5140ms) for thread "Thread[Worker-3,5,main]" to finish starting bundle "org.eclipse.m2e.jdt_1.6.2.20150902-0002 [550]". To avoid deadlock, thread "Thread[Worker-7,5,main]" is proceeding but "org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: Unable to acquire the state change lock for the module: osgi.identity; osgi.identity="org.eclipse.m2e.jdt"; type="osgi.bundle"; version:Version="1.6.2.20150902-0002"; singleton:="true" [id=550] STARTED [STARTED]
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:329)
+	at org.eclipse.osgi.container.Module.start(Module.java:389)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:531)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:324)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:327)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:402)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:352)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:344)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:573)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.jdt.core.JavaCore.computeClasspathContainerInitializer(JavaCore.java:3345)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainerInitializer(JavaCore.java:3321)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2849)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1900)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3298)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2693)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2857)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:1962)
+	at org.eclipse.jdt.internal.core.JavaProject.isOnClasspath(JavaProject.java:2240)
+	at org.eclipse.jdt.internal.ui.BuildpathIndicatorLabelDecorator.getOverlay(BuildpathIndicatorLabelDecorator.java:48)
+	at org.eclipse.jdt.internal.ui.BuildpathIndicatorLabelDecorator.decorate(BuildpathIndicatorLabelDecorator.java:35)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:273)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:83)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:367)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:349)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:372)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:332)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-07-03 09:18:50.856
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Milan Dobariya'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-03 09:19:25.330
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-03 09:19:25.441
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2018-07-04 09:50:48.919 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-07-04 09:52:05.012
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Milan Dobariya'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-04 09:52:30.866
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-04 09:52:30.913
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2018-07-04 10:00:49.971
+!MESSAGE Connection to http://www.pramati.com/downloads/eclipse/updates/p2.index failed on Connection timed out: connect. Retry attempt 0 started
+!STACK 0
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient4.ECFHttpClientProtocolSocketFactory.connectSocket(ECFHttpClientProtocolSocketFactory.java:86)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:177)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:131)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:674)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:487)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1077)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1068)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1064)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2018-07-04 10:01:52.135
+!MESSAGE Unable to connect to repository http://www.pramati.com/downloads/eclipse/updates/content.xml
+!STACK 0
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:117)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:177)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:304)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:259)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2018-07-04 10:02:52.192
+!MESSAGE Connection to http://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/updates/libertyAdapter/mars/p2.index failed on Connection reset. Retry attempt 0 started
+!STACK 0
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:160)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:84)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:273)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:260)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:283)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:251)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:223)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:271)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:123)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:685)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:487)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1077)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1068)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1064)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2018-07-04 10:03:03.223
+!MESSAGE Connection to http://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/updates/libertyAdapter/mars/content.jar failed on Connection reset. Retry attempt 0 started
+!STACK 0
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:160)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:84)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:273)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:260)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:283)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:251)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:223)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:271)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:123)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:685)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:487)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1077)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1068)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1064)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2018-07-04 10:03:04.686
+!MESSAGE Unable to read repository at http://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/updates/libertyAdapter/mars/content.jar.
+!STACK 0
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:160)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:84)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:273)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:260)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:283)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:251)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:223)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:271)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:123)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:685)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:487)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1077)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1068)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1064)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2018-07-04 10:03:06.966
+!MESSAGE Connection to http://master.dl.sourceforge.net/project/sapnweclipse/updates/p2.index failed on Connection reset. Retry attempt 0 started
+!STACK 0
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:160)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:84)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:273)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:260)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:283)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:251)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:223)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:271)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:123)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:685)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:487)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1077)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1068)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1064)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2018-07-04 10:03:14.797
+!MESSAGE Connection to http://master.dl.sourceforge.net/project/sapnweclipse/updates/site.xml failed on Connection reset. Retry attempt 0 started
+!STACK 0
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:160)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:84)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:273)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:260)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:283)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:251)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:223)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:271)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:123)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:685)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:487)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1077)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1068)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1064)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2018-07-04 10:03:16.359
+!MESSAGE Unable to read repository at http://master.dl.sourceforge.net/project/sapnweclipse/updates/site.xml.
+!STACK 0
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:160)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:84)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:273)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:260)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:283)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:251)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:223)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:271)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:123)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:685)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:487)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1077)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1068)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1064)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2018-07-04 10:03:27.106
+!MESSAGE Connection to http://www.apache.org/dist/geronimo/eclipse/updates/p2.index failed on Connection reset. Retry attempt 0 started
+!STACK 0
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:160)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:84)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:273)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:260)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:283)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:251)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:223)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:271)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:123)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:685)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:487)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1077)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1068)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1064)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2018-07-04 10:03:34.265
+!MESSAGE Connection to http://www.apache.org/dist/geronimo/eclipse/updates/site.xml failed on Connection reset. Retry attempt 0 started
+!STACK 0
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:160)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:84)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:273)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:260)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:283)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:251)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:223)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:271)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:123)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:685)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:487)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1077)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1068)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1064)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2018-07-04 10:03:35.664
+!MESSAGE Unable to read repository at http://www.apache.org/dist/geronimo/eclipse/updates/site.xml.
+!STACK 0
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:160)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:84)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:273)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:260)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:283)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:251)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:223)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:271)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:123)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:685)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:487)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1077)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1068)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1064)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2018-07-04 10:04:01.980
+!MESSAGE Connection to http://download.eclipse.org/mylyn/releases/mars/compositeContent.xml failed on Connection reset. Retry attempt 0 started
+!STACK 0
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:160)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:84)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:273)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:260)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:283)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:251)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:223)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:271)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:123)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:685)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:487)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1077)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1068)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1064)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2018-07-04 10:04:04.885
+!MESSAGE Unable to read repository at http://download.eclipse.org/mylyn/releases/mars/compositeContent.xml.
+!STACK 0
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:160)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:84)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:273)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:260)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:283)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:251)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:223)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:271)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:123)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:685)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:487)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1077)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1068)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1064)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2018-07-04 10:04:06.141
+!MESSAGE Connection to http://www.caucho.com/eclipse/p2.index failed on Connection reset. Retry attempt 0 started
+!STACK 0
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:160)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:84)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:273)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:260)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:283)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:251)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:223)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:271)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:123)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:685)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:487)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1077)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1068)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1064)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2018-07-04 10:04:09.993
+!MESSAGE Connection to http://www.caucho.com/eclipse/content.jar failed on Connection reset. Retry attempt 0 started
+!STACK 0
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:160)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:84)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:273)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:260)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:283)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:251)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:223)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:271)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:123)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:685)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:487)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1077)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1068)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1064)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2018-07-04 10:04:11.899
+!MESSAGE Unable to read repository at http://www.caucho.com/eclipse/content.jar.
+!STACK 0
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:160)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:84)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:273)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:260)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:283)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:251)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:223)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:271)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:123)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:685)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:487)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1077)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1068)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1064)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2018-07-04 10:04:26.396
+!MESSAGE Connection to http://download.eclipse.org/webtools/repository/mars/compositeContent.xml failed on Connection reset. Retry attempt 0 started
+!STACK 0
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:160)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:84)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:273)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:260)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:283)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:251)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:223)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:271)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:123)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:685)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:487)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1077)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1068)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1064)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2018-07-04 10:04:27.959
+!MESSAGE Unable to read repository at http://download.eclipse.org/webtools/repository/mars/compositeContent.xml.
+!STACK 0
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:160)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:84)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:273)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:260)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:283)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:251)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:223)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:271)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:123)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:685)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:487)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1077)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1068)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1064)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2018-07-05 08:02:08.564 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.osgi 2 0 2018-07-05 08:02:53.406
+!MESSAGE While loading class "org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer", thread "Thread[Worker-11,5,main]" timed out waiting (5009ms) for thread "Thread[Worker-3,5,main]" to finish starting bundle "org.eclipse.m2e.jdt_1.6.2.20150902-0002 [550]". To avoid deadlock, thread "Thread[Worker-11,5,main]" is proceeding but "org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: Unable to acquire the state change lock for the module: osgi.identity; osgi.identity="org.eclipse.m2e.jdt"; type="osgi.bundle"; version:Version="1.6.2.20150902-0002"; singleton:="true" [id=550] STARTED [STARTED]
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:329)
+	at org.eclipse.osgi.container.Module.start(Module.java:389)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:531)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:324)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:327)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:402)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:352)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:344)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:573)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.jdt.core.JavaCore.computeClasspathContainerInitializer(JavaCore.java:3345)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainerInitializer(JavaCore.java:3321)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2849)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1900)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3298)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2693)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2857)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:1962)
+	at org.eclipse.jdt.internal.core.JavaProject.isOnClasspath(JavaProject.java:2240)
+	at org.eclipse.jdt.internal.ui.BuildpathIndicatorLabelDecorator.getOverlay(BuildpathIndicatorLabelDecorator.java:48)
+	at org.eclipse.jdt.internal.ui.BuildpathIndicatorLabelDecorator.decorate(BuildpathIndicatorLabelDecorator.java:35)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:273)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:83)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:367)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:349)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:372)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:332)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.osgi 2 0 2018-07-05 08:02:55.645
+!MESSAGE While loading class "org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer", thread "Thread[Worker-6,5,main]" timed out waiting (5017ms) for thread "Thread[Worker-3,5,main]" to finish starting bundle "org.eclipse.m2e.jdt_1.6.2.20150902-0002 [550]". To avoid deadlock, thread "Thread[Worker-6,5,main]" is proceeding but "org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: Unable to acquire the state change lock for the module: osgi.identity; osgi.identity="org.eclipse.m2e.jdt"; type="osgi.bundle"; version:Version="1.6.2.20150902-0002"; singleton:="true" [id=550] STARTED [STARTED]
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:329)
+	at org.eclipse.osgi.container.Module.start(Module.java:389)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:531)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:324)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:327)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:402)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:352)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:344)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:573)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.jdt.core.JavaCore.computeClasspathContainerInitializer(JavaCore.java:3345)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainerInitializer(JavaCore.java:3321)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2849)
+	at org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:2774)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:2814)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1895)
+	at org.eclipse.jdt.core.JavaCore.initializeAfterLoad(JavaCore.java:4067)
+	at org.eclipse.jdt.internal.ui.InitializeAfterLoadJob$RealJob.run(InitializeAfterLoadJob.java:36)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.osgi 2 0 2018-07-05 08:02:57.296
+!MESSAGE While loading class "org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer", thread "Thread[Worker-13,5,main]" timed out waiting (5000ms) for thread "Thread[Worker-3,5,main]" to finish starting bundle "org.eclipse.m2e.jdt_1.6.2.20150902-0002 [550]". To avoid deadlock, thread "Thread[Worker-13,5,main]" is proceeding but "org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: Unable to acquire the state change lock for the module: osgi.identity; osgi.identity="org.eclipse.m2e.jdt"; type="osgi.bundle"; version:Version="1.6.2.20150902-0002"; singleton:="true" [id=550] STARTED [STARTED]
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:329)
+	at org.eclipse.osgi.container.Module.start(Module.java:389)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:531)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:324)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:327)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:402)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:352)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:344)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:573)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.jdt.core.JavaCore.computeClasspathContainerInitializer(JavaCore.java:3345)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainerInitializer(JavaCore.java:3321)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2849)
+	at org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:2774)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:2812)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1895)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3298)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2693)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2857)
+	at org.eclipse.jdt.internal.core.ClasspathChange.generateDelta(ClasspathChange.java:235)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2032)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:477)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:373)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1470)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2250)
+	at org.eclipse.core.internal.events.NotificationManager$NotifyJob.run(NotificationManager.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.osgi 2 0 2018-07-05 08:02:58.449
+!MESSAGE While loading class "org.eclipse.m2e.jdt.internal.MavenClasspathHelpers", thread "Thread[Worker-11,5,main]" timed out waiting (5001ms) for thread "Thread[Worker-3,5,main]" to finish starting bundle "org.eclipse.m2e.jdt_1.6.2.20150902-0002 [550]". To avoid deadlock, thread "Thread[Worker-11,5,main]" is proceeding but "org.eclipse.m2e.jdt.internal.MavenClasspathHelpers" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: Unable to acquire the state change lock for the module: osgi.identity; osgi.identity="org.eclipse.m2e.jdt"; type="osgi.bundle"; version:Version="1.6.2.20150902-0002"; singleton:="true" [id=550] STARTED [STARTED]
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:329)
+	at org.eclipse.osgi.container.Module.start(Module.java:389)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:531)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:324)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:327)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:402)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:352)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:344)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer.initialize(MavenClasspathContainerInitializer.java:44)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2868)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1900)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3298)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2693)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2857)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:1962)
+	at org.eclipse.jdt.internal.core.JavaProject.isOnClasspath(JavaProject.java:2240)
+	at org.eclipse.jdt.internal.ui.BuildpathIndicatorLabelDecorator.getOverlay(BuildpathIndicatorLabelDecorator.java:48)
+	at org.eclipse.jdt.internal.ui.BuildpathIndicatorLabelDecorator.decorate(BuildpathIndicatorLabelDecorator.java:35)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:273)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:83)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:367)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:349)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:372)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:332)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.ui.workbench 4 2 2018-07-05 08:03:00.821
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer.getBuildPathManager(MavenClasspathContainerInitializer.java:80)
+	at org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer.initialize(MavenClasspathContainerInitializer.java:46)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2868)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1900)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3298)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2693)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2857)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:1962)
+	at org.eclipse.jdt.internal.core.JavaProject.isOnClasspath(JavaProject.java:2240)
+	at org.eclipse.jdt.internal.ui.BuildpathIndicatorLabelDecorator.getOverlay(BuildpathIndicatorLabelDecorator.java:48)
+	at org.eclipse.jdt.internal.ui.BuildpathIndicatorLabelDecorator.decorate(BuildpathIndicatorLabelDecorator.java:35)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:273)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:83)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:367)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:349)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:372)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:332)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.resources 4 2 2018-07-05 08:03:00.831
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer.getBuildPathManager(MavenClasspathContainerInitializer.java:80)
+	at org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer.initialize(MavenClasspathContainerInitializer.java:46)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2868)
+	at org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:2774)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:2812)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1895)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3298)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2693)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2857)
+	at org.eclipse.jdt.internal.core.ClasspathChange.generateDelta(ClasspathChange.java:235)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2032)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:477)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:373)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1470)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2250)
+	at org.eclipse.core.internal.events.NotificationManager$NotifyJob.run(NotificationManager.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.ui 4 4 2018-07-05 08:03:00.876
+!MESSAGE Exception in Decorator. The 'Java Build Path Indicator' decorator will be disabled.
+!SUBENTRY 1 org.eclipse.ui 4 4 2018-07-05 08:03:00.876
+!MESSAGE java.lang.NullPointerException
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer.getBuildPathManager(MavenClasspathContainerInitializer.java:80)
+	at org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer.initialize(MavenClasspathContainerInitializer.java:46)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2868)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1900)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3298)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2693)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2857)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:1962)
+	at org.eclipse.jdt.internal.core.JavaProject.isOnClasspath(JavaProject.java:2240)
+	at org.eclipse.jdt.internal.ui.BuildpathIndicatorLabelDecorator.getOverlay(BuildpathIndicatorLabelDecorator.java:48)
+	at org.eclipse.jdt.internal.ui.BuildpathIndicatorLabelDecorator.decorate(BuildpathIndicatorLabelDecorator.java:35)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:273)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:83)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:367)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:349)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:372)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:332)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.resources 4 2 2018-07-05 08:03:00.897
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer.initialize(MavenClasspathContainerInitializer.java:46)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2868)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1900)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3298)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2693)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2857)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:1995)
+	at org.eclipse.jst.j2ee.classpathdep.ClasspathDependencyUtil.getComponentClasspathDependencies(ClasspathDependencyUtil.java:356)
+	at org.eclipse.jst.j2ee.classpathdep.ClasspathDependencyUtil.getComponentClasspathDependencies(ClasspathDependencyUtil.java:276)
+	at org.eclipse.jst.j2ee.componentcore.J2EEModuleVirtualComponent.getJavaClasspathReferences(J2EEModuleVirtualComponent.java:272)
+	at org.eclipse.jst.j2ee.componentcore.J2EEModuleVirtualComponent.getNonManifestRefs(J2EEModuleVirtualComponent.java:242)
+	at org.eclipse.jst.j2ee.componentcore.J2EEModuleVirtualComponent.getReferences(J2EEModuleVirtualComponent.java:166)
+	at org.eclipse.jst.j2ee.componentcore.J2EEModuleVirtualComponent.getReferences(J2EEModuleVirtualComponent.java:214)
+	at org.eclipse.jst.j2ee.componentcore.J2EEModuleVirtualComponent.getReferences(J2EEModuleVirtualComponent.java:207)
+	at org.eclipse.m2e.wtp.overlay.internal.servers.OverlayResourceChangeListener.collectOverlays(OverlayResourceChangeListener.java:163)
+	at org.eclipse.m2e.wtp.overlay.internal.servers.OverlayResourceChangeListener.resourceChanged(OverlayResourceChangeListener.java:86)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:373)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1470)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2250)
+	at org.eclipse.core.internal.events.NotificationManager$NotifyJob.run(NotificationManager.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.resources 4 2 2018-07-05 08:03:00.911
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer.initialize(MavenClasspathContainerInitializer.java:46)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2868)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1900)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3298)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2693)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2857)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:1962)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.createExternalArchiveDelta(DeltaProcessor.java:933)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.checkExternalArchiveChanges(DeltaProcessor.java:804)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2003)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:477)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.handleEvent(NotificationManager.java:271)
+	at org.eclipse.core.internal.resources.Workspace.broadcastEvent(Workspace.java:368)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1592)
+	at org.eclipse.rse.internal.files.ui.resources.SystemRemoteEditManager.refreshRemoteEditProject(SystemRemoteEditManager.java:794)
+	at org.eclipse.rse.internal.files.ui.Activator$InitRemoteEditJob.run(Activator.java:77)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2018-07-05 08:03:00.931
+!MESSAGE An internal error occurred during: "Initializing Java Tooling".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer.getBuildPathManager(MavenClasspathContainerInitializer.java:80)
+	at org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer.initialize(MavenClasspathContainerInitializer.java:46)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2868)
+	at org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:2774)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:2814)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1895)
+	at org.eclipse.jdt.core.JavaCore.initializeAfterLoad(JavaCore.java:4067)
+	at org.eclipse.jdt.internal.ui.InitializeAfterLoadJob$RealJob.run(InitializeAfterLoadJob.java:36)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-07-05 08:03:02.513
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Milan Dobariya'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-05 08:03:14.089
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-07-05 08:03:14.131
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!

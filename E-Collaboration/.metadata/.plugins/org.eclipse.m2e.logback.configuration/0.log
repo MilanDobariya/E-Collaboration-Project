@@ -2632,3 +2632,113 @@ java.io.IOException: Server returned HTTP response code: 403 for URL: http://www
 2018-07-02 09:16:44,265 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2018-07-02 09:16:44,267 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2018-07-02 09:16:44,275 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory H:\project2\E-Collaboration\project2middleware\src\test\resources
+2018-07-02 15:06:26,027 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-02 15:06:26,039 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-02 15:06:26,040 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-02 15:06:26,047 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory H:\project2\E-Collaboration\project2middleware\src\test\resources
+2018-07-02 15:07:11,549 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-02 15:07:11,550 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory H:\project2\E-Collaboration\project2backend\src\main\resources
+2018-07-02 15:07:11,551 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-02 15:07:11,551 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory H:\project2\E-Collaboration\project2backend\src\test\resources
+2018-07-02 15:07:11,620 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-02 15:07:11,628 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-02 15:07:11,629 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-02 15:07:11,636 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory H:\project2\E-Collaboration\project2middleware\src\test\resources
+2018-07-02 15:07:49,888 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-02 15:07:49,889 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory H:\project2\E-Collaboration\project2backend\src\main\resources
+2018-07-02 15:07:49,890 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-02 15:07:49,890 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory H:\project2\E-Collaboration\project2backend\src\test\resources
+2018-07-02 15:07:49,943 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-02 15:07:49,953 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-02 15:07:49,954 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-02 15:07:49,961 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory H:\project2\E-Collaboration\project2middleware\src\test\resources
+2018-07-02 15:17:51,443 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-02 15:17:51,443 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory H:\project2\E-Collaboration\project2backend\src\main\resources
+2018-07-02 15:17:51,445 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-02 15:17:51,445 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory H:\project2\E-Collaboration\project2backend\src\test\resources
+2018-07-02 15:18:37,372 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-02 15:18:37,372 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory H:\project2\E-Collaboration\project2backend\src\main\resources
+2018-07-02 15:18:37,374 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-02 15:18:37,374 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory H:\project2\E-Collaboration\project2backend\src\test\resources
+2018-07-02 15:39:05,766 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-02 15:39:05,774 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-02 15:39:05,776 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-02 15:39:05,787 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory H:\project2\E-Collaboration\project2middleware\src\test\resources
+2018-07-02 15:39:29,330 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-02 15:39:29,340 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-02 15:39:29,341 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-02 15:39:29,352 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory H:\project2\E-Collaboration\project2middleware\src\test\resources
+2018-07-02 15:39:55,175 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-02 15:39:55,182 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-02 15:39:55,183 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-02 15:39:55,190 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory H:\project2\E-Collaboration\project2middleware\src\test\resources
+2018-07-02 15:40:30,032 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-02 15:40:30,038 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-02 15:40:30,039 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-02 15:40:30,048 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory H:\project2\E-Collaboration\project2middleware\src\test\resources
+2018-07-02 15:40:35,912 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-02 15:40:35,921 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-02 15:40:35,923 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-02 15:40:35,929 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory H:\project2\E-Collaboration\project2middleware\src\test\resources
+2018-07-02 15:40:41,578 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-02 15:40:41,584 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-02 15:40:41,585 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-02 15:40:41,591 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory H:\project2\E-Collaboration\project2middleware\src\test\resources
+2018-07-02 15:46:24,040 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-02 15:46:24,040 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory H:\project2\E-Collaboration\project2backend\src\main\resources
+2018-07-02 15:46:24,042 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-02 15:46:24,042 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory H:\project2\E-Collaboration\project2backend\src\test\resources
+2018-07-02 16:07:38,512 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-02 16:07:38,513 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory H:\project2\E-Collaboration\project2backend\src\main\resources
+2018-07-02 16:07:38,514 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-02 16:07:38,514 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory H:\project2\E-Collaboration\project2backend\src\test\resources
+2018-07-02 16:08:19,513 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-02 16:08:19,513 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory H:\project2\E-Collaboration\project2backend\src\main\resources
+2018-07-02 16:08:19,515 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-02 16:08:19,515 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory H:\project2\E-Collaboration\project2backend\src\test\resources
+2018-07-02 16:09:12,957 [Worker-64] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.niit:project2backend:0.0.1-SNAPSHOT @ H:\project2\E-Collaboration\project2backend\pom.xml.
+2018-07-02 16:09:13,349 [Worker-64] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.niit:project2middleware:0.0.1-SNAPSHOT @ H:\project2\E-Collaboration\project2middleware\pom.xml.
+2018-07-02 16:09:14,433 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-02 16:09:14,433 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory H:\project2\E-Collaboration\project2backend\src\main\resources
+2018-07-02 16:09:14,435 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-02 16:09:14,435 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory H:\project2\E-Collaboration\project2backend\src\test\resources
+2018-07-02 16:09:15,811 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-02 16:09:15,820 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-02 16:09:15,821 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-02 16:09:15,827 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory H:\project2\E-Collaboration\project2middleware\src\test\resources
+2018-07-02 16:09:17,982 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-02 16:09:17,982 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory H:\project2\E-Collaboration\project2backend\src\main\resources
+2018-07-02 16:09:17,983 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-02 16:09:17,983 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory H:\project2\E-Collaboration\project2backend\src\test\resources
+2018-07-02 16:09:18,094 [Worker-60] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-02 16:09:18,134 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-02 16:09:18,135 [Worker-60] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-02 16:09:18,162 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory H:\project2\E-Collaboration\project2middleware\src\test\resources
+2018-07-02 20:54:37,908 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-02 20:54:37,923 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-02 20:54:37,925 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-02 20:54:37,933 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory H:\project2\E-Collaboration\project2middleware\src\test\resources
+2018-07-02 21:30:25,229 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-02 21:30:25,259 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-02 21:30:25,260 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-02 21:30:25,270 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory H:\project2\E-Collaboration\project2middleware\src\test\resources
+2018-07-03 09:19:19,874 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-03 09:19:19,931 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory H:\project2\E-Collaboration\project2backend\src\main\resources
+2018-07-03 09:19:19,935 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-03 09:19:19,936 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory H:\project2\E-Collaboration\project2backend\src\test\resources
+2018-07-03 09:19:25,330 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-03 09:19:25,438 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-03 09:19:25,440 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-03 09:19:25,448 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory H:\project2\E-Collaboration\project2middleware\src\test\resources
+2018-07-03 09:38:13,978 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-03 09:38:13,979 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory H:\project2\E-Collaboration\project2backend\src\main\resources
+2018-07-03 09:38:13,980 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-03 09:38:13,980 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory H:\project2\E-Collaboration\project2backend\src\test\resources
+2018-07-04 09:52:30,806 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-04 09:52:30,910 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-04 09:52:30,913 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-04 09:52:30,920 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory H:\project2\E-Collaboration\project2middleware\src\test\resources
+2018-07-05 08:03:14,065 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-05 08:03:14,128 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-05 08:03:14,131 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-05 08:03:14,141 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory H:\project2\E-Collaboration\project2middleware\src\test\resources
